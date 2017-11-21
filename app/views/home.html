@@ -1,0 +1,22 @@
+<h1 class="heading -large">{{ home.title | bacon }}</h1>
+
+<h3 class="heading -medium">Here is a super fancy number served up courtesy of Angular: <span class="number-example">{{ home.number }}</span></h3>
+
+<h4>State Resolved Data: {{ home.myResolvedData }}</h4>
+
+<img src="images/angular.png" height="100" />
+<img src="images/gulp.png" height="100" />
+<img src="images/browserify.png" height="100" />
+
+<hr/>
+
+<example-directive data-title="{{ home.bindedScopeValue }}" data-click-message="You clicked me!" data-display-message="true">Directive is not loaded.</example-directive>
+
+<hr/>
+
+<button class="btn btn-default" ng-click="home.myViewFunction()">Do something else! (Check console)</button>
+<div ng-if="home.privateProperty">Private property: {{ home.privateProperty }}</div>
+
+<hr />
+
+<a ui-sref="other-state" class="btn btn-default">Go to some other State</a>

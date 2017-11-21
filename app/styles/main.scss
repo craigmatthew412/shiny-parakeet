@@ -1,0 +1,67 @@
+/**
+ * @author Craig McMurray
+ *
+ * @description
+ * This file follows the SMACSS design philosophy (https://smacss.com)
+ */
+/*************** IMPORT STYLES ***************/
+//Twitter Bootstrap
+@import 'bootstrap';
+
+//Font Awesome Icons
+@import '../../bower_components/font-awesome-sass/assets/stylesheets/font-awesome';
+
+//Animate.css
+@import '../../bower_components/animate-sass/animate';
+
+//Common Defined Variables
+@import 'vars';
+
+/*************** BASE STYLES ***************/
+*,
+*:after,
+*::before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+*:focus {
+	outline: none !important;
+}
+
+html {
+	font-size: 62.5%; //Needed to use REM as pixels as base 10.  For example, 14px == 1.4rem
+}
+
+html,
+body {
+	height: 100%; //Needed so we can set height to 100% of Window
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5 {
+	font-family: $font-family-primary;
+}
+
+body {
+	font-size: $font-size-base;
+	color: $font-color--dark;
+	background-color: $background--light;
+	padding: $half-space;
+}
+
+/*************** LAYOUT STYLES ***************/
+
+/*************** MODULE STYLES ***************/
+
+/*************** STATE STYLES ***************/
+
+/*************** THEME STYLES ***************/
+hr {
+	border-top: 2px solid #000000;
+}

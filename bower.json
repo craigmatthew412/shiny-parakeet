@@ -1,0 +1,28 @@
+{
+  "name": "shiny-parakeet",
+  "version": "1.0.0",
+  "homepage": "https://github.com/craigmatthew412/shiny-parakeet.git",
+  "authors": [
+    "Craig McMurray <craigmatthew412@gmail.com>"
+  ],
+  "moduleType": [
+    "es6",
+    "globals",
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "bootstrap-sass": "3.3.7",
+    "font-awesome-sass": "4.7.0",
+    "bourbon": "4.2.7",
+    "jquery": "3.1.1",
+    "animate-sass": "^0.6.6"
+  }
+}

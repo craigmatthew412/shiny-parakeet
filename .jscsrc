@@ -1,0 +1,95 @@
+{
+	//See http://jscs.info/overview/ for more details
+	"preset": "airbnb",
+	"disallowEmptyBlocks": true,
+	"disallowKeywordsOnNewLine": [],
+	"disallowMultipleSpaces": {
+		"allowEOLComments": true
+	},
+	"disallowPaddingNewlinesInBlocks": true,
+	"disallowSpaceAfterLineComment": true,
+	"disallowTrailingComma": true,
+	"disallowYodaConditions": true,
+	"jsDoc": {
+		"checkAnnotations": {
+			"preset": "jsdoc3",
+			"extra": {
+				"ngInject": false,
+				"ngdoc": true,
+				"description": true,
+				"requires": true,
+				"methodOf": true,
+				"propertyOf": true,
+				"restrict": true,
+				"element": true,
+				"eventOf": true,
+				"eventType": true,
+				"scope": false
+			}
+		},
+		//"checkParamNames": true,
+		"requireParamTypes": true,
+		//"checkRedundantParams": true,
+		"checkReturnTypes": true,
+		"checkRedundantReturns": true,
+		"requireReturnTypes": true,
+		"checkTypes": true,
+		"checkRedundantAccess": true,
+		//"requireHyphenBeforeDescription": true,
+		"requireNewlineAfterDescription": true,
+		"requireParamDescription": true
+	},
+	"maximumLineLength": {
+		"value": 400,
+		"allExcept": [
+			"comments",
+			"regex",
+			"urlComments",
+			"functionSignature"
+		]
+	},
+	"requireBlocksOnNewline": true,
+	"requireCommaBeforeLineBreak": true,
+	"requireFunctionDeclarations": true,
+	"requireKeywordsOnNewLine": ["else", "else if", "catch"],
+	"requireLineBreakAfterVariableAssignment": true,
+	"requireObjectKeysOnNewLine": true,
+	"requirePaddingNewLineAfterVariableDeclaration": true,
+	"requirePaddingNewLinesAfterUseStrict": true,
+	"requirePaddingNewLinesBeforeExport": true,
+	"requirePaddingNewlinesBeforeKeywords": [
+		"if",
+		"for",
+		"while",
+		"do",
+		"switch",
+		"return",
+		"try"
+	],
+	"requirePaddingNewLinesBeforeLineComments": {
+		"allExcept": "firstAfterCurly"
+	},
+	"requireParenthesesAroundIIFE": true,
+	"requireQuotedKeysInObjects": true,
+	"disallowQuotedKeysInObjects": false,
+	"requireShorthandArrowFunctions": false,
+	"requireSpaceBetweenArguments": true,
+	"requireSpacesInFunctionDeclaration": {
+		"beforeOpeningCurlyBrace": true
+	},
+	"requireSpacesInFunction": {
+		"beforeOpeningCurlyBrace": true
+	},
+	"requireSpacesInAnonymousFunctionExpression": {
+		"beforeOpeningCurlyBrace": true
+	},
+	"requireTrailingComma": false,
+	"safeContextKeyword": ["that", "vm"],
+	"validateAlignedFunctionParameters": true,
+	"validateIndentation": "\t",
+	"validateLineBreaks": {
+		"character": "LF",
+		"reportOncePerFile": true
+	},
+	"validateParameterSeparator": ", "
+}

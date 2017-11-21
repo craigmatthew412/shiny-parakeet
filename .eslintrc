@@ -1,0 +1,60 @@
+{
+	"extends": "airbnb",
+	"parser": "babel-eslint",
+	"sourceType": "script",
+	"ecmaFeatures": {
+		"impliedStrict": false,
+		"modules": false
+	},
+	"env": {
+		"browser": true,
+		//"node": true,
+		"es6": true,
+		"jquery": true,
+		"protractor": true,
+		"jasmine": true
+	},
+	"rules": {
+		"arrow-body-style": [2, "always"],
+		"brace-style": [2, "stroustrup", { "allowSingleLine": true }],
+		"camelcase": 0,
+		"comma-dangle": [2, "never"],
+		"consistent-return": 0,
+		"eol-last": 0,
+		"indent": [2, "tab", { "SwitchCase": 1 }],
+		"keyword-spacing": 0,
+		"max-len": 0,
+		"no-debugger": 1,
+		"no-mixed-requires": 0,
+		"no-underscore-dangle": 0,
+		"no-multi-spaces": 0,
+		"no-tabs": 0,
+		"no-trailing-spaces": 0,
+		"no-extra-boolean-cast": 0,
+		"no-param-reassign": 0,
+		"no-mixed-operators": 0,
+		"no-unused-vars": 2,
+		"no-use-before-define": [2, { "functions": false, "classes": true }],
+		"new-cap": 0,
+		"prefer-rest-params": 0,
+		"quotes": 0,
+		"quote-props": [2, "always"],
+		"semi": 0,
+		"space-before-function-paren": [2, "never"],
+		"spaced-comment": [2, "never", {
+			"markers": ["global"]
+		}],
+		"strict": [0, "global"]
+	},
+	"globals": {
+		"angular": false,
+		"browser": false,
+		"by": false,
+		"lodash": false,
+		"uuid": false,
+		"module": false,
+		"jQuery": false,
+		"moment": false,
+		"he": false
+	}
+}

@@ -1,0 +1,36 @@
+/**
+ * UI COLOR PALETTE
+ */
+$font-color--dark: #333;
+$font-color--light: #fff;
+$background--light: #eee;
+$background--dark: #222;
+$blue: #1f8de2;
+$green: #1fe27b;
+$red: #e21f3f;
+
+// spacing
+$full-space: 40px;
+$half-space: 20px;
+
+// font sizing
+$font-size--xs: 1.0rem;
+$font-size--sm: 1.2rem;
+$font-size--md: 1.6rem;
+$font-size--lg: 2.4rem;
+$font-size--xl: 3.2rem;
+
+/**
+ * TYPOGRAPHY
+ */
+//Font Family
+$font-family-primary: "Arial";
+$font-size-base: $font-size--md;
+
+
+/**
+ * UTILITIES
+ */
+//Transition duration
+$transition-duration-short: 0.35s;
+$transition-duration-medium: 0.5s;

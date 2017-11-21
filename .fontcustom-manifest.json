@@ -1,0 +1,45 @@
+{
+  "checksum": {
+    "previous": "e3b2cb1cebf0f20e0d1bfb37c00ed13f4773b4752a432297d7b93b498f75936a",
+    "current": ""
+  },
+  "fonts": [
+    "app/fonts/custom-icons/CustomIcons.ttf",
+    "app/fonts/custom-icons/CustomIcons.svg",
+    "app/fonts/custom-icons/CustomIcons.woff",
+    "app/fonts/custom-icons/CustomIcons.eot"
+  ],
+  "glyphs": {},
+  "options": {
+    "autowidth": false,
+    "config": "fontcustom.yml",
+    "css_selector": ".custom-icon-{{glyph}}",
+    "debug": true,
+    "font_ascent": 448,
+    "font_descent": 64,
+    "font_design_size": 16,
+    "font_em": 512,
+    "font_name": "CustomIcons",
+    "force": false,
+    "input": {
+      "templates": "app/custom-icons/",
+      "vectors": "app/custom-icons/"
+    },
+    "no_hash": true,
+    "output": {
+      "css": "app/styles/",
+      "fonts": "app/fonts/custom-icons",
+      "preview": "app/fonts/custom-icons"
+    },
+    "preprocessor_path": null,
+    "quiet": false,
+    "templates": [
+      "preview",
+      "scss"
+    ]
+  },
+  "templates": [
+    "app/fonts/custom-icons/CustomIcons-preview.html",
+    "app/styles/_CustomIcons.scss"
+  ]
+}
